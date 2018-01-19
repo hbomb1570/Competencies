@@ -23,10 +23,11 @@
 #mainSection {
     height: 50vh;
     width: 100vw;
+    margin-top: 15vh;
     position: relative;
     background: black;
     border: none;
-    margin: none;
+    margin-bottom: 14vh;
 }
 
 bgVideo {
@@ -59,11 +60,51 @@ bgVideo {
     border-color: rgb(148,109,99);
     border-width: 4px;
     border-radius: 6px;
+    background: white;
+    padding-left: 100px;
+    margin-left: 100px;
+    box-sizing: border-box;
 }
 
+.box h1 {
+    color:blue;
+}
+
+div p {
+    color: red;
+}
 footer {
     margin:top 4vh;
 }
 
+@media screen and (min-width: 600px) {
+    .box {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+article {
+    background: yellow;
+}
+
+div + p {
+    color: green;
+}
+
+.box2 {
+    background-image:url('https://wallpaperbrowse.com/media/images/0d1a2e8c94f7d902b16340a35d51fd6f--baby-pandas-giant-pandas.jpg');
+    background-color:white;
+    display: block;
+}
+
+.floating {
+    float: right;
+}
 
 
+.flexWrapper {
+    height: 500px;
+    width: 500px;
+    background: green;
+}
